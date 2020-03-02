@@ -30,6 +30,6 @@ deploy:
   skip_cleanup: true
   script: rsync -r --delete-after --quiet 
      ${TRAVIS_BUILD_DIR}/code      
-     ${DEPLOY_USER}@${DEPLOY_SERVER}:/home/${DEPLOY_USER}/githubstuff
+     ${DEPLOY_USER}@${DEPLOY_SERVER}:/home/avm/courses/cps847/g7liang
   on:
     branch: master
