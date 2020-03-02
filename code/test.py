@@ -1,7 +1,7 @@
 import unittest
 import funcs
 
-class TestStuff(unitest.TestCase):
+class TestStuff(unittest.TestCase):
   def setUp(self):
     pass
   
@@ -9,4 +9,4 @@ class TestStuff(unitest.TestCase):
     self.assertEqual(funcs.product(3,5),15)
 
 if __name__ == "__main__":
-  unitest.main()
+  unittest.main()
