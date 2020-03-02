@@ -1,7 +1,7 @@
 import unitest
 import funcs
 
-def test_stuff(unitest.TestCase):
+class TestStuff(unitest.TestCase):
   def setUp(self):
     pass
   
